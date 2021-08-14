@@ -11,7 +11,7 @@ import json
 def get_secret():
 
     secret_name = "aws-ecs-demo-db-cred"
-    region_name = "us-east-1"
+    region_name = "ap-southeast-1"
 
     # Create a Secrets Manager client
     session = boto3.session.Session()
