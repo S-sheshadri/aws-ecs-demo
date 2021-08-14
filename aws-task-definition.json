@@ -1,6 +1,6 @@
 {
   "ipcMode": null,
-  "executionRoleArn": "arn:aws:iam::257492816994:role/ecsTaskExecutionRole",
+  "executionRoleArn": "arn:aws:iam::792357687789:role/ecsTaskExecutionRole",
   "containerDefinitions": [
     {
       "dnsSearchDomains": null,
@@ -29,7 +29,7 @@
       "memoryReservation": 128,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "257492816994.dkr.ecr.us-east-1.amazonaws.com/aws-ecs-demo-ecr",
+      "image": "792357687789.dkr.ecr.ap-southeast-1.amazonaws.com/flask-ecs-demo",
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": null,
@@ -46,17 +46,18 @@
       "dockerLabels": null,
       "systemControls": null,
       "privileged": null,
-      "name": "aws-ecs-demo-ecr"
+      "name": "flask-ecs-demo"
     }
   ],
   "placementConstraints": [],
   "memory": null,
-  "taskRoleArn": "arn:aws:iam::257492816994:role/ecsTaskExecutionRole",
+  "taskRoleArn": "arn:aws:iam::792357687789:role/ecsTaskExecutionRole",
   "compatibilities": [
+    "EXTERNAL",
     "EC2"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:us-east-1:257492816994:task-definition/aws-ecs-demo-task-definition:1",
-  "family": "aws-ecs-demo-task-definition",
+  "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:792357687789:task-definition/flask-demo-task-definition:1",
+  "family": "flask-demo-task-definition",
   "requiresAttributes": [
     {
       "targetId": null,
