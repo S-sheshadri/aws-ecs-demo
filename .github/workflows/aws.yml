@@ -81,6 +81,6 @@ jobs:
       uses: aws-actions/amazon-ecs-deploy-task-definition@v1
       with:
         task-definition: ${{ steps.task-def.outputs.task-definition }}
-        service: aws-ecs-demo-service
-        cluster: aws-ecs-demo-cluster
+        service: flask-demo-service
+        cluster: flask-demo-cluster
         wait-for-service-stability: true
