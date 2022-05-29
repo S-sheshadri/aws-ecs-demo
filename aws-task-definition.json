@@ -50,13 +50,13 @@
     }
   ],
   "placementConstraints": [],
-  "memory": null,
+  "memory": "1024",
   "taskRoleArn": "arn:aws:iam::792357687789:role/ecsTaskExecutionRole",
   "compatibilities": [
     "EXTERNAL",
     "EC2"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:us-west-2:792357687789:task-definition/project-corridor-task-definition:1",
+  "taskDefinitionArn": "arn:aws:ecs:us-west-2:792357687789:task-definition/project-corridor-task-definition:37",
   "family": "project-corridor-task-definition",
   "requiresAttributes": [
     {
@@ -90,8 +90,8 @@
   ],
   "networkMode": null,
   "runtimePlatform": null,
-  "cpu": null,
-  "revision": 1,
+  "cpu": "1024",
+  "revision": 37,
   "status": "ACTIVE",
   "inferenceAccelerators": null,
   "proxyConfiguration": null,
